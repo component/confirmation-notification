@@ -1,7 +1,7 @@
 {
   "name": "confirmation-notification",
   "description": "Confirmation notification component",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "keywords": ["confirmation", "confirm", "notify", "notification", "ui", "growl"],
   "dependencies": {
     "component/inherit": "*",
