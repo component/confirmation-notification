@@ -5,9 +5,6 @@
 
   ![js confirmation notification](http://f.cl.ly/items/2P2H0s3U2m0p1L0C3m1c/Screen%20Shot%202012-08-30%20at%2011.44.16%20AM.png)
 
-  These don't _have_ to look like growl style notifications, use
-  your trusty friend CSS.
-
 ## Installation
 
 ```
