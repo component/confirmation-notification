@@ -1,0 +1,33 @@
+<!DOCTYPE 5>
+<html>
+  <head>
+    <title>Notification</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="../build/build.css" />
+    <style>
+      a {
+        text-decoration: none;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <title>Notification</title>
+    <script src="../build/build.js"></script>
+    <script>
+      var notify = require('confirmation-notification');
+      function callback(yes) {
+        alert(yes ? 'yes' : 'no');
+      }
+    </script>
+    <a href="#" onclick="notify('hello')">notify('hello')</a>
+    <a href="#" onclick="notify('hello', callback)">notify('hello', callback)</a>
+    <a href="#" onclick="notify('title', 'msg')">notify('title', 'msg')</a>
+    <a href="#" onclick="notify('title', 'msg', callback)">notify('title', 'msg', callback)</a>
+    <a href="#" onclick="notify('msg').closable()">notify('msg').closable()</a>
+    <a href="#" onclick="notify('msg').effect('slide')">notify('msg').effect('slide')</a>
+    <a href="#" onclick="notify('msg').effect('fade')">notify('msg').effect('fade')</a>
+    <a href="#" onclick="notify('msg').effect('scale')">notify('msg').effect('scale')</a>
+    <a href="#" onclick="notify('msg').ok('Accept').cancel('Deny')">notify('msg').ok('Accept').cancel('Deny')</a>
+  </body>
+</html>

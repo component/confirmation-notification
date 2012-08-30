@@ -1,0 +1,13 @@
+{
+  "name": "confirmation-notification",
+  "description": "Confirmation notification component",
+  "version": "0.0.2",
+  "keywords": ["confirmation", "confirm", "notify", "notification", "ui", "growl"],
+  "dependencies": {
+    "component/inherit": "*",
+    "component/jquery": "*",
+    "component/notification": "*"
+  },
+  "scripts": ["index.js", "template.js"],
+  "styles": ["notification.css"]
+}
