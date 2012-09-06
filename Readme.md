@@ -1,4 +1,3 @@
-
 # ConfirmationNotification
 
   Confirmation notification component with a clean slate to build off of.
@@ -46,20 +45,20 @@ notify('Accept friend request?', function(yes){
   function is given it will be invoked with a boolean
   representing the user's choice.
 
-### ConfirmationNotification#focus(type)
+### .focus(type)
 
   By default the "cancel" button is focused, however you
   may invoke `.focus('ok')`.
 
-### ConfirmationNotification#cancel(text)
+### .cancel(text)
 
   Set cancel button `text`.
 
-### ConfirmationNotification#ok(text)
+### .ok(text)
 
   Set cancel ok `text`.
 
-### ConfirmationNotification#show([fn])
+### .show([fn])
 
   Show the notification and invoke `fn` with
   a boolean representing the user's choice.
