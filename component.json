@@ -2,12 +2,25 @@
   "name": "confirmation-notification",
   "description": "Confirmation notification component",
   "version": "0.0.1",
-  "keywords": ["confirmation", "confirm", "notify", "notification", "ui", "growl"],
+  "keywords": [
+    "confirmation",
+    "confirm",
+    "notify",
+    "notification",
+    "ui",
+    "growl"
+  ],
   "dependencies": {
     "component/inherit": "*",
     "component/jquery": "*",
     "component/notification": "*"
   },
-  "scripts": ["index.js", "template.js"],
-  "styles": ["notification.css"]
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "notification.css"
+  ],
+  "license": "MIT"
 }
